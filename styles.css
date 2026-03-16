@@ -1,8 +1,8 @@
 :root {
-	--body-light-on: navajowhite;
-	--body-light-off: #22190d;
-	--text-light-on: #22190d;
-	--text-light-off: navajowhite;
+	--body-light-on: rgb(255, 222, 173, 1);
+	--body-light-off: rgb(34, 25, 13, 1);
+	--text-light-on: rgb(34, 25, 13, 1);
+	--text-light-off: rgb(255, 222, 173, 1);
 
 	font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
@@ -61,6 +61,7 @@ section {
 form {
 	display: flex;
 	flex-direction: column;
+	align-items: center;
 	gap: 24px;
 }
 
